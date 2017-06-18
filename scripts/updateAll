@@ -1,0 +1,23 @@
+#!/bin/bash
+
+updateAll() {
+  folder="";
+  repo="";
+
+  i=0;
+  for word in `cat repositories.md`
+  do
+    i=$(expr $i + 1);
+
+    if ((i % 2));
+    then
+      folder="$word";
+    else
+      repo="$word";
+
+      git sbu "$repo" "$folder"
+    fi
+  done
+}
+
+updateAll

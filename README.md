@@ -1,6 +1,6 @@
 # subtree-scripts
 
-# Criado usando git subtree
+### Created using git subtree
 https://developer.atlassian.com/blog/2015/05/the-power-of-git-subtree/
 
 ###### $HOME/.gitconfig
