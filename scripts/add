@@ -5,3 +5,6 @@ echo "$2 $1" >> repositories.md;
 
 git add repositories.md;
 git commit -m "Added $2.";
+
+git reset --soft HEAD~2
+git commit -m "Added $2.";
