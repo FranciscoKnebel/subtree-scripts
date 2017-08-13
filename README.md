@@ -1,6 +1,8 @@
 # subtree-scripts
 Scripts to add, remove and update subtrees inside a repository.
 
+![logo.png](logo.png)
+
 ##### Created using git subtree
 https://developer.atlassian.com/blog/2015/05/the-power-of-git-subtree/
 
