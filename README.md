@@ -23,11 +23,11 @@ Add this configuration to your .gitconfig file.
 ```
 [alias]
 # "subtree add"
-  sba = "!f() { ./path/to/scripts/add; }; f"
+  sba = "!f() { ./path/to/scripts/add $1 $2; }; f"
 # "subtree remove"
-  sbr = "!f() { ./path/to/scripts/remove; }; f"
+  sbr = "!f() { ./path/to/scripts/remove $1; }; f"
 # "subtree update"
-  sbu = "!f() { ./path/to/scripts/update; }; f"
+  sbu = "!f() { ./path/to/scripts/update $1 $2; }; f"
 # "subtree update all"
   sbua = "!f() { ./path/to/scripts/updateAll; }; f"
 ```
