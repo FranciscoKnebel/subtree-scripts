@@ -23,13 +23,13 @@ Add this configuration to your .gitconfig file.
 ```
 [alias]
 # "subtree add"
-  sba = "!f() { ./path/to/scripts/add }; f"
+  sba = "!f() { ./path/to/scripts/add; }; f"
 # "subtree remove"
-  sbr = "!f() { ./path/to/scripts/remove }; f"
+  sbr = "!f() { ./path/to/scripts/remove; }; f"
 # "subtree update"
-  sbu = "!f() { ./path/to/scripts/update }; f"
+  sbu = "!f() { ./path/to/scripts/update; }; f"
 # "subtree update all"
-  sbua = "!f() { ./path/to/scripts/updateAll }; f"
+  sbua = "!f() { ./path/to/scripts/updateAll; }; f"
 ```
 
 After you configure `.gitconfig`, you can use the scripts as defined on the usage section.
